@@ -15,6 +15,31 @@
     padding: 20px;
 }
 
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: blue;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  
+}
+
+a:hover{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: blue;
+    padding: 10px;
+    color: white;    
+    border-radius: 8%;
+    font-size: 23px;
+  }
+
+
 .valor-propriedade {
     font-size: 1.5em;
     font-weight: 400px;
