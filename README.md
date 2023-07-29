@@ -1,2 +1,3 @@
 # FlexBoxSenai
-flexbox
+## A tividade que mostra as propriedades do flexbox
+
