@@ -83,6 +83,36 @@
     border-radius: 16px;
 }
 
+.bloco-1-sem-altura{
+    background-color: lightblue;
+    
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco-2-sem-altura{
+    background-color: lightpink;
+    
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
+.bloco-3-sem-altura{
+    background-color: red;
+   
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 16px;
+}
+
 /* flex-direction: define a direção do eixo principal */
 .container-row{
     display: flex;
@@ -204,6 +234,17 @@
     flex-direction: row; 
     justify-content: center;
     align-items: flex-end;
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;   
+}
+
+.container-alignitems-stretch{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: stretch;
     /* indiferente */
     background-color: #f9eac3;
     padding: 16px;
