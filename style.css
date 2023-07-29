@@ -20,7 +20,8 @@
     font-weight: 400px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
-    padding: 30px;
+    padding-top: 30px;
+    
 }
 
 .bloco-1{
@@ -281,16 +282,7 @@
     height: 500px;   
 }
 
-.container-alignitems-stretch{
-    display: flex;
-    flex-direction: row; 
-    justify-content: center;
-    align-items: stretch;
-    /* indiferente */
-    background-color: #f9eac3;
-    padding: 16px;
-    height: 500px;   
-}
+
 .container-alignitems-baseline{
     display: flex;
     flex-direction: row; 
@@ -329,9 +321,98 @@
 .container-flexwrap-wrap-reverse{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap-reverse; 
+    flex-wrap:wrap-reverse; 
     justify-content: center;
     align-items: center;
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;   
+}
+
+.container-flexflow-rownowrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;   
+}
+
+.container-align-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;   
+}
+
+.container-align-content-flex-start{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;   
+}
+
+.container-align-content-flex-end{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;   
+}
+
+.container-align-content-space-between{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;   
+}
+
+.container-align-content-space-around{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    /* indiferente */
+    background-color: #f9eac3;
+    padding: 16px;
+    height: 500px;   
+}
+
+.container-align-content-space-evenly{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-evenly;
     /* indiferente */
     background-color: #f9eac3;
     padding: 16px;
